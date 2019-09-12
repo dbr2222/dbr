@@ -1,0 +1,217 @@
+body {
+  background: linear-gradient(to right, rgba(242, 246, 248, 1) 0%, rgba(217, 226, 232, 1) 43%, rgba(217, 226, 232, 1) 63%, rgba(180, 197, 207, 1) 100%);
+  background-image: url("imagebackground.jpg");
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  border-radius: 15px;
+  padding: 6px;
+  margin-left: 20px;
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+}
+
+li:first-child {
+  margin-left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+mark.pink {
+    color: black;
+    background: none;
+}
+
+header {
+  height: 300px;
+  width: 100%;
+  padding: 20px;
+  background-size: 100%;
+  background-positon: center;
+  background-color: pink;
+  color: white;
+  text-align: center;
+  background-image: url("backgroundheader3.jpg");
+  box-shadow: 0px 1px 20px -5px black;
+}
+
+header .logo {
+  background-image: url("logodaniel.png");
+  background-size: 300px;
+  background-repeat: no-repeat;
+  top: -20px;
+  width: 300px;
+  display: inline-block;
+  height: 80px;
+  position: relative;
+  text-indent: -99999px;
+  border-radius: 0px 15px 15px 0px;
+}
+
+.flexbox {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: baseline;
+align-content: flex-start;
+margin-top: 40px;
+}
+
+.flexbox .box {
+  background-color: #f2f2f2;
+  width: 320px;
+  height: 365px;
+  margin-bottom: 30px;
+  box-shadow: black 7px 7px 7px;
+  border-radius: 2%;
+  border-style: solid;
+  border-color: white;
+  border-width: 20px;
+}
+
+.flexbox img {
+    width: 150px;
+    height: 200px;
+    border-radius: 7%;
+}
+
+
+.flexbox figure {
+      text-align: center;
+      color: black;
+}
+
+.flexbox .box2 {
+  background-color: pink;
+  width: 700px;
+  height: 500px;
+  margin-bottom: 30px;
+  box-shadow: white 10px 10px 10px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: pink;
+  color: white;
+  text-align: center;
+  bottom: 0px;
+}
+
+.bottombox {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.gallerybox {
+  color: black;
+  font-size: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.gallerybox figure {
+  margin: auto;
+  width: 400px;
+  text-align: center;
+}
+
+.gallerybox figure img {
+  width: 400px;
+  border-radius: 65px;
+  box-shadow: black 10px 10px 10px;
+}
+
+.galleryboxwide {
+  color: black;
+  font-size: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.galleryboxwide figure {
+  margin: auto;
+  width: 1000px;
+  text-align: center;
+}
+
+.galleryboxwide figure img {
+  width: 1000px;
+  border-radius: 65px;
+  box-shadow: black 10px 10px 10px;
+}
+
+.topbox {
+  width: 300px;
+  height: 500px;
+  margin: auto;
+  margin-top: 75px;
+  background-color: pink;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: pink;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: 50px;
+}
+
+.container2 {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  width: 1000px;
+  height: 500px;
+  padding: 20px;
+  margin: 50px;
+  border-radius: 2%;
+  border-style: solid;
+  border-color: white;
+  border-width: 20px;
+}
